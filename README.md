@@ -19,5 +19,10 @@ Known issues
 ----------------
 
 The script uses the function "datetime.datetime.now()", however depending on you timezone this might give the wrong code.
-If you experience this problem, let me know which timezone you use, and I'll try to fix the code. 
+If you experience this problem, let me know which timezone you use, and I'll try to fix the code.
 
+
+License
+-----------
+
+BSD
