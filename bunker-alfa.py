@@ -13,7 +13,7 @@ r = requests.get('https://last-day-on-earth-survival.fandom.com/wiki/Bunker_Alfa
 
 # check status code for response received
 # success code - 200
-if r.status_code is 200:
+if r.status_code == 200:
 
     # Parsing the HTML
     soup = BeautifulSoup(r.content, 'html.parser')
